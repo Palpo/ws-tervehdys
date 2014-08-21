@@ -9,7 +9,7 @@ public class Palvelu {
     return "Moi "+ nimi + "!" ;
   }
 
-  public static void main (String args[]){
+  public static void main(String args[]){
     Endpoint.publish("http://localhost:8080/Palvelu", new Palvelu()); ;
   }
 }

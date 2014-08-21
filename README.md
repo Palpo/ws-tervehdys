@@ -1,6 +1,10 @@
+# ws-tervehdys
 
+Yksinkertainen esimerkki Java Web Services -palvelusta.
 
-## Käännä ja käynnistä palvelu
+## Ajo-ohjeet
+
+### Käännä ja käynnistä palvelu
 
 Tiedostossa `Palvelu.java` on määritelty yksinkertainen tervehdyspalvelu. Sen saa ajoon suorittamalla seuraavat komennot:
 
@@ -16,16 +20,16 @@ Sen WSDL generoituu automaattisesti ja on osoitteessa
     http://localhost:8080/Palvelu?wsdl
 
 
-## Generoi tynkä asiakkaan käyttöön
+### Generoi tynkä asiakkaan käyttöön
 
 WSDL:stä voi generoida Java-tyngät asiakkaan käyttöön ohjelmalla `wsimport`, seuraavasti:
 
     wsimport -keep http://localhost:8080/Palvelu?wsdl
 
-(Parametri -keep säilyttää myös tynkien lähdekoodit. Niitä voi tarkastella hakemistossa `com/example`)
+Parametri -keep säilyttää myös tynkien lähdekoodit. Niitä voi tarkastella hakemistossa `com/example`
 
 
-## Suorita asiakas
+### Suorita asiakas
 
 Tiedostossa `Asiakas.java` on palveluamme käyttävä asiakas. Sen voi ajaa suorittamalla
 

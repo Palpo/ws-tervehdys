@@ -40,3 +40,10 @@ Jos kaikki meni hyvin, niin tulostuu
 
     Vastaus: Moi Antti!
 
+
+
+## Muuta
+
+Käynnistämällä palvelun seuraavanlaisella parametrillä tulostuu konsoliin palvelulle tuleva ja lähtevä HTTP-liikenne, eli tässä tapauksessa SOAP-viestit.
+
+    java -Dcom.sun.xml.internal.ws.transport.http.HttpAdapter.dump=true Palvelu

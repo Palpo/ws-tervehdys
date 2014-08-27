@@ -1,6 +1,6 @@
 # ws-tervehdys
 
-Yksinkertainen esimerkki Java Web Services -palvelusta.
+Yksinkertainen [JAX-WS](http://en.wikipedia.org/wiki/Java_API_for_XML_Web_Services)-esimerkki.
 
 ## Ajo-ohjeet
 
@@ -15,7 +15,7 @@ Nyt palvelu on ajossa osoitteessa
 
     http://localhost:8080/Palvelu
 
-Sen WSDL generoituu automaattisesti ja on osoitteessa
+Sen WSDL 1.1 -kuvaus generoituu automaattisesti ja on saatavilla osoitteessa
 
     http://localhost:8080/Palvelu?wsdl
 

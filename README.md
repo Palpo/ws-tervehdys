@@ -47,3 +47,11 @@ Jos kaikki meni hyvin, niin tulostuu
 Käynnistämällä palvelun seuraavanlaisella parametrillä tulostuu konsoliin palvelulle tuleva ja lähtevä HTTP-liikenne, eli tässä tapauksessa SOAP-viestit.
 
     java -Dcom.sun.xml.internal.ws.transport.http.HttpAdapter.dump=true Palvelu
+
+## Seuraaavaksi
+
+http://www.service-repository.com/ listaa avoimia WS
+palveluita. Valitse mieleisesi ja luo palvelua vastaavat Java-tyngät
+WSDL kuvauksesta wsimportin avulla. Muokkaa sitten
+Asiakas.java esimerkin avulla uusi asiakas, joka hyödyntää
+valitsemaasi palvelua.
